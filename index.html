@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Editor
+    </title>
+     
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+     <link rel="stylesheet" href="style.css" />
+
+</head> 
+
+<body>
+
+<div  class="editor-menu">
+      <button class="btn btn-dark">
+      Dark Mode
+      </button>
+
+      <button  class="btn btn-light">
+      Light Mode
+      </button>
+
+      <button class="btn btn-run">
+        <i class="fa fa-play"
+         aria-hidden="true" ></i>
+        Run
+      </button>
+
+      <div class="live">
+        <label for="live">Live-</label>
+        <input type="checkbox" id="live">
+      </div>
+
+      <button 
+      class="btn btn-download" 
+      id="dload">
+        <i class="fa fa-download"
+         aria-hidden="true" ></i>
+        download
+      </button>
+</div>
+
+<div>
+  <textarea 
+      id="html"  
+      class="form-control" 
+      spellcheck="false" 
+      placeholder="HTML"></textarea>
+
+  <textarea 
+      id="css" 
+      class="form-control" 
+      spellcheck="false" 
+      placeholder="CSS"></textarea>
+
+  <textarea 
+      id="js"  
+      class="form-control" 
+      spellcheck="false" 
+      placeholder="JavaScript"></textarea>
+
+    </div>
+  <iframe id="code"></iframe>
+
+    <script type="text/javascript" src="events.js"></script> 
+  </body>
+</html>
+</html>
+
