@@ -61,8 +61,8 @@ darkMode.addEventListener("click",()=>{
 
 
   html.style.color="#eee";
-  html.style.color="#eee";
-  html.style.color="#eee";
+  css.style.color="#eee";
+  js.style.color="#eee";
   
 });
 
@@ -74,8 +74,8 @@ lightMode.addEventListener("click",()=>{
 
 
   html.style.color="";
-  html.style.color="";
-  html.style.color="";
+  css.style.color="";
+  js.style.color="";
   
 });
 
